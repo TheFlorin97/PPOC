@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./top-nav.component.css']
 })
 export class TopNavComponent {
-
+  value = 'Clear me';
 }
