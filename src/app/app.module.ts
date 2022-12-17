@@ -10,6 +10,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import {MatTabsModule} from '@angular/material/tabs';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 
 
 // COMPONENTS
@@ -17,6 +20,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselComponent } from './carousel/carousel.component';
 
 // THIRD PARTY
 
@@ -24,7 +28,8 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     MainComponent,
-    TopNavComponent
+    TopNavComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatTabsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

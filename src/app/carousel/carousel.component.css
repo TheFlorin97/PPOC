@@ -1,0 +1,16 @@
+img{
+    width: 100vw;
+    height: 85vh;
+}
+
+.button-container{
+    position: absolute;
+    top: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+
+.button-container button{
+    margin-bottom: 2em;
+}
