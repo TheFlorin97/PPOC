@@ -1,8 +1,17 @@
 .parent {
     display: flex;
     flex-direction: column;
+    max-width: auto;
 }
 
 h2 {
     text-align: center;
+}
+
+.cloths-container {
+    margin: 0px 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }

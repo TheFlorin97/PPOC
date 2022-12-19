@@ -1,4 +1,6 @@
 <div class="parent">
     <h2>Ce e mai bun pentru tine</h2>
-    <type-card></type-card>
+    <div class="cloths-container">
+        <type-card [pic]="cloth.pic" [description]="cloth.description" *ngFor="let cloth of mainCloths"></type-card>
+    </div>
 </div>

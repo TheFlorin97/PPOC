@@ -7,6 +7,39 @@ import { Component } from '@angular/core';
 })
 export class PreviewProductsComponent {
 
-// public 
+  public mainCloths = [
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+    {
+      pic: "../../../assets/pics/pexels-juan-mendez-1536619.jpg",
+      description: "Desc1"
+    },
+  ]
 
 }
