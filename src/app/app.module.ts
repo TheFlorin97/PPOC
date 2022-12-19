@@ -22,6 +22,7 @@ import { TopNavComponent } from './top-nav/top-nav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './carousel/carousel.component';
 import { PreviewProductsComponent } from './preview-products/preview-products.component';
+import { TypeCardComponent } from './preview-products/type-card/type-card.component';
 
 // THIRD PARTY
 
@@ -31,7 +32,8 @@ import { PreviewProductsComponent } from './preview-products/preview-products.co
     MainComponent,
     TopNavComponent,
     CarouselComponent,
-    PreviewProductsComponent
+    PreviewProductsComponent,
+    TypeCardComponent
   ],
   imports: [
     BrowserModule,

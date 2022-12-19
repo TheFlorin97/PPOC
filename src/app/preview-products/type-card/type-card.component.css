@@ -1,0 +1,14 @@
+.container {
+    width: 20vw;
+    height: 30vw;
+    margin: 0px 3em;
+}
+
+img {
+    width: 20vw;
+    height: 25vw;
+}
+
+h3 {
+    text-align: center;
+}
