@@ -15,19 +15,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
-
-
-
 // COMPONENTS
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
-import { TopNavComponent } from './top-nav/top-nav.component';
+import { TopNavComponent } from './main/top-nav/top-nav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselComponent } from './carousel/carousel.component';
-import { PreviewProductsComponent } from './preview-products/preview-products.component';
-import { TypeCardComponent } from './preview-products/type-card/type-card.component';
-import { SubscribeComponent } from './subscribe/subscribe.component';
-import { InfoComponent } from './info/info.component';
+import { CarouselComponent } from './main/carousel/carousel.component';
+import { PreviewProductsComponent } from './main/preview-products/preview-products.component';
+import { TypeCardComponent } from './main/preview-products/type-card/type-card.component';
+import { SubscribeComponent } from './main/subscribe/subscribe.component';
+import { InfoComponent } from './main/info/info.component';
 
 // THIRD PARTY
 
