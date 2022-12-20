@@ -13,6 +13,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
+
 
 
 // COMPONENTS
@@ -24,6 +27,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { PreviewProductsComponent } from './preview-products/preview-products.component';
 import { TypeCardComponent } from './preview-products/type-card/type-card.component';
 import { SubscribeComponent } from './subscribe/subscribe.component';
+import { InfoComponent } from './info/info.component';
 
 // THIRD PARTY
 
@@ -35,7 +39,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     CarouselComponent,
     PreviewProductsComponent,
     TypeCardComponent,
-    SubscribeComponent
+    SubscribeComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,8 @@ import { SubscribeComponent } from './subscribe/subscribe.component';
     ReactiveFormsModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

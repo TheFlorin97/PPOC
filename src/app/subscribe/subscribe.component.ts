@@ -8,4 +8,6 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class SubscribeComponent {
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
+
+  public checked: boolean = false;
 }
