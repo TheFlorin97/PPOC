@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/main/",
+            "baseHref": "//https:theflorin97.github.io/PPOC/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
