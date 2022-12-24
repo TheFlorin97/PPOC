@@ -19,13 +19,14 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 // COMPONENTS
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
-import { TopNavComponent } from './main/top-nav/top-nav.component';
+import { TopNavComponent } from './top-nav/top-nav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselComponent } from './main/carousel/carousel.component';
 import { PreviewProductsComponent } from './main/preview-products/preview-products.component';
 import { TypeCardComponent } from './main/preview-products/type-card/type-card.component';
 import { SubscribeComponent } from './main/subscribe/subscribe.component';
 import { InfoComponent } from './main/info/info.component';
+import { LoginComponent } from './login/login.component';
 
 // THIRD PARTY
 
@@ -38,7 +39,8 @@ import { InfoComponent } from './main/info/info.component';
     PreviewProductsComponent,
     TypeCardComponent,
     SubscribeComponent,
-    InfoComponent
+    InfoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
