@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "baseHref": "/",
-            "outputPath": "docs_local",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -38,7 +38,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "800kb",
                   "maximumError": "1mb"
                 },
                 {
