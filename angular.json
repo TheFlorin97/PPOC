@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/PPOC/",
+            "baseHref": "/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -33,6 +33,8 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/PPOC/",
+              "outputPath": "docs_prod",
               "budgets": [
                 {
                   "type": "initial",
