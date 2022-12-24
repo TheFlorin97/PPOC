@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "baseHref": "/",
-            "outputPath": "docs",
+            "outputPath": "docs_local",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -34,7 +34,7 @@
           "configurations": {
             "production": {
               "baseHref": "/PPOC/",
-              "outputPath": "docs_prod",
+              "outputPath": "docs",
               "budgets": [
                 {
                   "type": "initial",
