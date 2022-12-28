@@ -1,18 +1,35 @@
 <div class="container">
-    <div class="rigth">
-        <div class="cover">
-            
-        </div>
-        <div class="form">
+    <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+        <mat-tab label="Login">
+            <div class="login">
+                <h2>Login</h2>
 
-        </div>
-    </div>
-    <div class="left">
-        <div class="cover">
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
 
-        </div>
-        <div class="form">
+                <mat-form-field>
+                    <mat-label>Enter your password</mat-label>
+                    <input matInput type="password" placeholder="password" [(ngModel)]="password" required>
+                </mat-form-field>
 
-        </div>
-    </div>
+                <section>
+                    <mat-checkbox [(ngModel)]="remember">Remember me</mat-checkbox>
+                </section>
+
+                <button mat-button (click)="login()">Login</button>
+
+                <button mat-button (click)="login()">Forgot password?</button>
+            </div>
+        </mat-tab>
+
+
+        <mat-tab label="Sign in">
+            <div class="signin">
+
+            </div>
+        </mat-tab>
+    </mat-tab-group>
 </div>

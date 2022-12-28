@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
+
 // COMPONENTS
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
@@ -58,7 +59,7 @@ import { LoginComponent } from './login/login.component';
     MatCardModule,
     MatCheckboxModule
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
