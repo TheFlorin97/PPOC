@@ -1,11 +1,11 @@
-img{
+img {
     width: 100vw;
-    height: 85vh;
+    height: 38vw;
     max-width: 100%;
     overflow-x: hidden;
 }
 
-.button-container{
+.button-container {
     position: absolute;
     top: 30vh;
     display: flex;
@@ -13,6 +13,6 @@ img{
     margin-left: 5em;
 }
 
-.button-container button{
+.button-container button {
     margin-bottom: 2em;
 }

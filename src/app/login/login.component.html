@@ -28,7 +28,36 @@
 
         <mat-tab label="Sign in">
             <div class="signin">
+                <mat-form-field>
+                    <mat-label>Enter your name</mat-label>
+                    <input matInput type="text" placeholder="name" [(ngModel)]="name" required>
+                </mat-form-field>
 
+                <mat-form-field>
+                    <mat-label>Enter your surname</mat-label>
+                    <input matInput type="text" placeholder="surname" [(ngModel)]="surname" required>
+                </mat-form-field>
+
+                <mat-form-field appearance="fill">
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>Enter your password</mat-label>
+                    <input matInput type="password" placeholder="password" [(ngModel)]="password" required>
+                </mat-form-field>
+
+                <section>
+                    <mat-checkbox [(ngModel)]="subscribe">Subscribe</mat-checkbox>
+                </section>
+
+                <section>
+                    <mat-checkbox [(ngModel)]="remember">Remember me</mat-checkbox>
+                </section>
+
+                <button mat-button (click)="signin()">Sign in</button>
             </div>
         </mat-tab>
     </mat-tab-group>

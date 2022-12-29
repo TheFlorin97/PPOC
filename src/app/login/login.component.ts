@@ -9,6 +9,9 @@ import { FormControl, Validators } from '@angular/forms';
 export class LoginComponent {
   email = new FormControl('', [Validators.required, Validators.email]);
   password = ""
+  name: string = "";
+  surname: string = "";
+  subscribe: boolean = false;
   remember: boolean = false;
 
   getErrorMessage() {
@@ -22,5 +25,9 @@ export class LoginComponent {
   login() {
     console.log(this.email)
     console.log(this.password)
+  }
+
+  signin() {
+
   }
 }
