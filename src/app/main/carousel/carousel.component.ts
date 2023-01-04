@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+// import { Router } from '@angular/router';
 
 @Component({
   selector: 'carousel',
@@ -8,11 +9,14 @@ import { FormControl } from '@angular/forms';
 })
 export class CarouselComponent implements OnInit {
 
+  // constructor(private router: Router) { }
+
   tabs = ['Promotions %', 'Barbati', 'Femei', 'De toate'];
   selected = new FormControl(0);
 
   ngOnInit() {
     this.switchTabs();
+    // console.log(this.router.url)
   }
 
 
