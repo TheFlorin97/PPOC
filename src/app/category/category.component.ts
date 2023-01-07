@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-category',
@@ -7,5 +6,4 @@ import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./category.component.css']
 })
 export class CategoryComponent {
-
 }

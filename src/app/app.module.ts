@@ -22,7 +22,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselComponent } from './main/carousel/carousel.component';
+import { MainCarouselComponent } from './main/carousel/carousel.component';
 import { PreviewProductsComponent } from './main/preview-products/preview-products.component';
 import { TypeCardComponent } from './main/preview-products/type-card/type-card.component';
 import { SubscribeComponent } from './main/subscribe/subscribe.component';
@@ -31,14 +31,15 @@ import { LoginComponent } from './login/login.component';
 import { CategoryComponent } from './category/category.component';
 
 // THIRD PARTY
-import { NgbCarouselModule  } from '@ng-bootstrap/ng-bootstrap';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     TopNavComponent,
-    CarouselComponent,
+    MainCarouselComponent,
     PreviewProductsComponent,
     TypeCardComponent,
     SubscribeComponent,
@@ -61,7 +62,7 @@ import { NgbCarouselModule  } from '@ng-bootstrap/ng-bootstrap';
     BrowserAnimationsModule,
     MatCardModule,
     MatCheckboxModule,
-    NgbCarouselModule
+    IvyCarouselModule
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]

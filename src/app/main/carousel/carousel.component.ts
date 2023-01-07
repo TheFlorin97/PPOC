@@ -3,11 +3,11 @@ import { FormControl } from '@angular/forms';
 // import { Router } from '@angular/router';
 
 @Component({
-  selector: 'carousel',
+  selector: 'main-carousel',
   templateUrl: './carousel.component.html',
   styleUrls: ['./carousel.component.css']
 })
-export class CarouselComponent implements OnInit {
+export class MainCarouselComponent implements OnInit {
 
   // constructor(private router: Router) { }
 
