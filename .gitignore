@@ -41,4 +41,4 @@ testem.log
 .DS_Store
 Thumbs.db
 
-local_config
+# local_config

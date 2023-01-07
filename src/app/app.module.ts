@@ -28,8 +28,10 @@ import { TypeCardComponent } from './main/preview-products/type-card/type-card.c
 import { SubscribeComponent } from './main/subscribe/subscribe.component';
 import { InfoComponent } from './main/info/info.component';
 import { LoginComponent } from './login/login.component';
+import { CategoryComponent } from './category/category.component';
 
 // THIRD PARTY
+import { NgbCarouselModule  } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { LoginComponent } from './login/login.component';
     TypeCardComponent,
     SubscribeComponent,
     InfoComponent,
-    LoginComponent
+    LoginComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +60,8 @@ import { LoginComponent } from './login/login.component';
     MatTabsModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    NgbCarouselModule
   ],
   providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
