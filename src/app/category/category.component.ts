@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./category.component.css']
 })
 export class CategoryComponent {
+
+  public clothesCategory=["Geci","Hanorace","Camasi","Bluze","Camasi","Pantaloni","Blugi"];
+  
 }
